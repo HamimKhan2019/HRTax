@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="EmployeeService.Api/EmployeeService.Api.csproj" />
+  <Project Path="EmployeeService.Domain/EmployeeService.Domain.csproj" />
+  <Project Path="EmployeeService.Infrastructure/EmployeeService.Infrastructure.csproj" />
+  <Project Path="TaxService.Api/TaxService.Api.csproj" />
+  <Project Path="TaxService.Application/TaxService.Application.csproj" />
+  <Project Path="TaxService.Domain/TaxService.Domain.csproj" />
+  <Project Path="TaxService.Infrastructure/TaxService.Infrastructure.csproj" />
+</Solution>

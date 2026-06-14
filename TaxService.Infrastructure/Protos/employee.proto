@@ -1,0 +1,24 @@
+syntax = "proto3";
+option csharp_namespace = "EmployeeService.Api.Protos";
+package employee;
+
+service EmployeeGrpc {
+  rpc GetEmployee (EmployeeRequest) returns (EmployeeReply);
+}
+
+message EmployeeRequest {
+  int32 id = 1;
+}
+
+message EmployeeReply {
+  bool found = 1;
+  int32 id = 2;
+  string name = 3;
+  string designation = 4;
+  string department = 5;
+  double basicSalary = 6;
+  double houseRent = 7;
+  double medical = 8;
+  double conveyance = 9;
+  double pfPercent = 10;
+}
