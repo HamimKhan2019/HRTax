@@ -1,0 +1,9 @@
+Terminal 1:
+cd HRTax 
+dotnet run --project EmployeeService.Api
+Terminal 2:
+cd HRTax 
+dotnet run --project TaxService.Api
+Terminal 3:
+cd tax-calculator-ui 
+ng serve
